@@ -1,37 +1,155 @@
-[18:43:49] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[18:43:50] [main/INFO]: Loading 4 mods:
+[20:20:22] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[20:20:22] [main/INFO]: Loading 48 mods:
+	- fabric-api 0.124.2+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.96+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.0.37+86c3a9f149
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.14+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.30+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.14.4+fca633a049
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.8.2+1aba48bb49
+	   |-- fabric-data-generation-api-v1 22.4.0+ea72995749
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f49
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b49
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.4.1+e46fd76a49
+	   |-- fabric-item-group-api-v1 4.2.9+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.6.0+230071a049
+	   |-- fabric-loot-api-v2 3.0.48+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.36+86c3a9f149
+	   |-- fabric-message-api-v1 6.0.33+86c3a9f149
+	   |-- fabric-model-loading-api-v1 5.2.0+c982b95149
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98949
+	   |-- fabric-object-builder-api-v1 21.1.0+b8d6ba7049
+	   |-- fabric-particles-v1 4.1.1+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.7+3235ab3249
+	   |-- fabric-registry-sync-v0 6.1.20+b556383249
+	   |-- fabric-renderer-api-v1 6.0.2+c982b95149
+	   |-- fabric-renderer-indigo 3.0.3+3e6c1f7d49
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.1.11+5490746649
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.7+847e5f5c49
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.127+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.17+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.24+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
 	- fabricloader 0.16.14
 	   \-- mixinextras 0.4.1
 	- java 21
+	- lithostitched 1.4.8
+	- mes 1.4.4-1.21.5-6-fabric
 	- minecraft 1.21.5
-[18:43:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServerMIn1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[18:43:55] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:43:56] [main/INFO]: No existing world data, creating new world
-[18:43:57] [main/INFO]: Loaded 1373 recipes
-[18:43:57] [main/INFO]: Loaded 1484 advancements
-[18:43:57] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[18:43:57] [Server thread/INFO]: Loading properties
-[18:43:57] [Server thread/INFO]: Default game type: SURVIVAL
-[18:43:57] [Server thread/INFO]: Generating keypair
-[18:43:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:43:57] [Server thread/INFO]: Using epoll channel type
-[18:43:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:43:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:43:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:43:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:43:57] [Server thread/INFO]: Preparing level "world"
-[18:44:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:44:05] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[18:44:06] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[18:44:06] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[18:44:07] [Worker-Main-1/INFO]: Preparing spawn area: 6%
-[18:44:07] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[18:44:08] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[18:44:08] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[18:44:09] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[18:44:09] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[18:44:10] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[18:44:10] [Server thread/INFO]: Time elapsed: 5003 ms
-[18:44:10] [Server thread/INFO]: Done (12.655s)! For help, type "help"
-[18:44:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[18:44:10] [Server thread/INFO]: home/codespace/.python/current/bin/python /workspaces/ServerMIn1/msx.py<--[HERE]
+	- mns 1.1.4-1.21.5-6-fabric
+	- mvs 4.4.6-1.21.5-6-fabric
+	- tectonic 3.0.1
+	- terralith 2.5.11
+[20:20:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServerMIn1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:20:22] [main/INFO]: Compatibility level set to JAVA_21
+[20:20:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:20:31] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:20:32] [main/INFO]: No existing world data, creating new world
+[20:20:33] [main/INFO]: Loaded 1379 recipes
+[20:20:33] [main/INFO]: Loaded 1485 advancements
+[20:20:34] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 2.283 ms
+[20:20:34] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[20:20:34] [Server thread/INFO]: Loading properties
+[20:20:34] [Server thread/INFO]: Default game type: SURVIVAL
+[20:20:34] [Server thread/INFO]: Generating keypair
+[20:20:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:20:34] [Server thread/INFO]: Using epoll channel type
+[20:20:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:20:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:20:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:20:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:20:34] [Server thread/INFO]: Preparing level "world"
+[20:20:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:20:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[20:20:50] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[20:20:51] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[20:20:52] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[20:20:52] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[20:20:52] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[20:20:53] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[20:20:53] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[20:20:54] [Worker-Main-1/INFO]: Preparing spawn area: 16%
+[20:20:54] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[20:20:55] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[20:20:55] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[20:20:56] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[20:20:56] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[20:20:57] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[20:20:57] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[20:20:58] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[20:20:58] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[20:20:59] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[20:20:59] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[20:21:00] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[20:21:00] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[20:21:01] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[20:21:01] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[20:21:02] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[20:21:02] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[20:21:03] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[20:21:03] [Worker-Main-1/INFO]: Preparing spawn area: 63%
+[20:21:03] [Server thread/INFO]: Time elapsed: 13560 ms
+[20:21:03] [Server thread/INFO]: Done (29.392s)! For help, type "help"
+[20:21:03] [Server thread/INFO]: Goty (/127.218.110.240:58249) lost connection: Disconnected
+[20:21:05] [Server thread/INFO]: LuSDxc[/127.26.149.131:38741] logged in with entity id 8 at (-65.5, 67.0, -119.5)
+[20:21:05] [Server thread/INFO]: LuSDxc joined the game
+[20:21:27] [Server thread/INFO]: Goty[/127.218.110.240:54983] logged in with entity id 155 at (-71.5, 66.0, -130.5)
+[20:21:27] [Server thread/INFO]: Goty joined the game
+[20:23:28] [Server thread/INFO]: angr32r[/127.4.69.72:47667] logged in with entity id 1035 at (-65.5, 67.0, -126.5)
+[20:23:28] [Server thread/INFO]: angr32r joined the game
+[20:23:40] [Server thread/INFO]: angr32r lost connection: Disconnected
+[20:23:40] [Server thread/INFO]: angr32r left the game
+[20:24:00] [Server thread/INFO]: angr32r[/127.4.69.72:42299] logged in with entity id 1481 at (-72.19219288377764, 66.0, -129.9811681572179)
+[20:24:00] [Server thread/INFO]: angr32r joined the game
+[20:24:32] [Server thread/INFO]: LuSDxc has made the advancement [Local Brewery]
+[20:24:45] [Worker-Main-3/ERROR]: Failed to fetch mob spawner entity at (-436, 27, 19)
+[20:24:48] [Server thread/WARN]: angr32r moved too quickly! 3.120152348077866,0.8800391385729398,9.574619653571645
+[20:24:48] [Server thread/WARN]: Goty moved too quickly! -2.3286657942902025,-0.023088109101550458,9.820054614804626
+[20:25:01] [Server thread/INFO]: angr32r was slain by Polar Bear
+[20:25:21] [Server thread/INFO]: LuSDxc has made the advancement [Stone Age]
+[20:29:51] [Server thread/INFO]: LuSDxc has made the advancement [Getting an Upgrade]
+[20:30:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-151, y=63, z=-623} class_2338{x=-151, y=62, z=-623}
+[20:32:22] [Server thread/INFO]: angr32r was blown up by Creeper
+[20:32:27] [Server thread/INFO]: angr32r lost connection: Disconnected
+[20:32:27] [Server thread/INFO]: angr32r left the game
+[20:34:42] [Server thread/INFO]: Goty hit the ground too hard
+[20:35:13] [Server thread/INFO]: LuSDxc has made the advancement [Monster Hunter]
+[20:35:47] [Server thread/INFO]: Goty was slain by Zombie
+[20:39:15] [Server thread/INFO]: angr32r[/127.4.69.72:50767] logged in with entity id 13696 at (-185.7721644684107, 68.0, -1147.9969399762028)
+[20:39:15] [Server thread/INFO]: angr32r joined the game
+[20:39:59] [Server thread/INFO]: LuSDxc has made the advancement [Acquire Hardware]
+[20:41:54] [Server thread/INFO]: LuSDxc has made the advancement [A Seedy Place]
+[20:42:19] [Server thread/INFO]: angr32r hit the ground too hard
+[20:42:24] [Server thread/INFO]: angr32r lost connection: Disconnected
+[20:42:24] [Server thread/INFO]: angr32r left the game
+[20:50:27] [Server thread/INFO]: LuSDxc lost connection: Disconnected
+[20:50:27] [Server thread/INFO]: LuSDxc left the game
+[20:50:32] [Server thread/INFO]: LuSDxc[/127.26.149.131:55427] logged in with entity id 23106 at (1268.4618035272824, 66.0, 91.44225275665123)
+[20:50:32] [Server thread/INFO]: LuSDxc joined the game
+[20:53:04] [Server thread/INFO]: Villager class_1646['Villager'/25199, l='ServerLevel[world]', x=502.28, y=111.00, z=743.37] died, message: 'Villager suffocated in a wall'
+[20:53:31] [Server thread/INFO]: Goty was doomed to fall by Skeleton
+[20:53:49] [Server thread/INFO]: LuSDxc fell from a high place
+[20:55:24] [Server thread/INFO]: Goty lost connection: Disconnected
+[20:55:24] [Server thread/INFO]: Goty left the game
+[21:03:02] [Server thread/INFO]: LuSDxc fell from a high place
+[21:03:32] [Server thread/INFO]: LuSDxc lost connection: Disconnected
+[21:03:32] [Server thread/INFO]: LuSDxc left the game
+[21:04:32] [Server thread/INFO]: Server empty for 60 seconds, pausing
