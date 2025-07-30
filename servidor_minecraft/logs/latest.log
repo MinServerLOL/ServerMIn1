@@ -1,5 +1,5 @@
-[20:20:22] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[20:20:22] [main/INFO]: Loading 48 mods:
+[02:21:34] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[02:21:35] [main/INFO]: Loading 48 mods:
 	- fabric-api 0.124.2+1.21.5
 	   |-- fabric-api-base 0.4.62+73a52b4b49
 	   |-- fabric-api-lookup-api-v1 1.6.96+86c3a9f149
@@ -58,98 +58,51 @@
 	- mvs 4.4.6-1.21.5-6-fabric
 	- tectonic 3.0.1
 	- terralith 2.5.11
-[20:20:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServerMIn1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:20:22] [main/INFO]: Compatibility level set to JAVA_21
-[20:20:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:20:31] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:20:32] [main/INFO]: No existing world data, creating new world
-[20:20:33] [main/INFO]: Loaded 1379 recipes
-[20:20:33] [main/INFO]: Loaded 1485 advancements
-[20:20:34] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 2.283 ms
-[20:20:34] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[20:20:34] [Server thread/INFO]: Loading properties
-[20:20:34] [Server thread/INFO]: Default game type: SURVIVAL
-[20:20:34] [Server thread/INFO]: Generating keypair
-[20:20:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:20:34] [Server thread/INFO]: Using epoll channel type
-[20:20:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:20:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:20:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:20:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:20:34] [Server thread/INFO]: Preparing level "world"
-[20:20:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:20:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[20:20:50] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[20:20:51] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[20:20:52] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[20:20:52] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[20:20:52] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[20:20:53] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[20:20:53] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[20:20:54] [Worker-Main-1/INFO]: Preparing spawn area: 16%
-[20:20:54] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[20:20:55] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[20:20:55] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[20:20:56] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[20:20:56] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[20:20:57] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[20:20:57] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[20:20:58] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[20:20:58] [Worker-Main-2/INFO]: Preparing spawn area: 22%
-[20:20:59] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[20:20:59] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[20:21:00] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[20:21:00] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[20:21:01] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[20:21:01] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[20:21:02] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[20:21:02] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[20:21:03] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[20:21:03] [Worker-Main-1/INFO]: Preparing spawn area: 63%
-[20:21:03] [Server thread/INFO]: Time elapsed: 13560 ms
-[20:21:03] [Server thread/INFO]: Done (29.392s)! For help, type "help"
-[20:21:03] [Server thread/INFO]: Goty (/127.218.110.240:58249) lost connection: Disconnected
-[20:21:05] [Server thread/INFO]: LuSDxc[/127.26.149.131:38741] logged in with entity id 8 at (-65.5, 67.0, -119.5)
-[20:21:05] [Server thread/INFO]: LuSDxc joined the game
-[20:21:27] [Server thread/INFO]: Goty[/127.218.110.240:54983] logged in with entity id 155 at (-71.5, 66.0, -130.5)
-[20:21:27] [Server thread/INFO]: Goty joined the game
-[20:23:28] [Server thread/INFO]: angr32r[/127.4.69.72:47667] logged in with entity id 1035 at (-65.5, 67.0, -126.5)
-[20:23:28] [Server thread/INFO]: angr32r joined the game
-[20:23:40] [Server thread/INFO]: angr32r lost connection: Disconnected
-[20:23:40] [Server thread/INFO]: angr32r left the game
-[20:24:00] [Server thread/INFO]: angr32r[/127.4.69.72:42299] logged in with entity id 1481 at (-72.19219288377764, 66.0, -129.9811681572179)
-[20:24:00] [Server thread/INFO]: angr32r joined the game
-[20:24:32] [Server thread/INFO]: LuSDxc has made the advancement [Local Brewery]
-[20:24:45] [Worker-Main-3/ERROR]: Failed to fetch mob spawner entity at (-436, 27, 19)
-[20:24:48] [Server thread/WARN]: angr32r moved too quickly! 3.120152348077866,0.8800391385729398,9.574619653571645
-[20:24:48] [Server thread/WARN]: Goty moved too quickly! -2.3286657942902025,-0.023088109101550458,9.820054614804626
-[20:25:01] [Server thread/INFO]: angr32r was slain by Polar Bear
-[20:25:21] [Server thread/INFO]: LuSDxc has made the advancement [Stone Age]
-[20:29:51] [Server thread/INFO]: LuSDxc has made the advancement [Getting an Upgrade]
-[20:30:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-151, y=63, z=-623} class_2338{x=-151, y=62, z=-623}
-[20:32:22] [Server thread/INFO]: angr32r was blown up by Creeper
-[20:32:27] [Server thread/INFO]: angr32r lost connection: Disconnected
-[20:32:27] [Server thread/INFO]: angr32r left the game
-[20:34:42] [Server thread/INFO]: Goty hit the ground too hard
-[20:35:13] [Server thread/INFO]: LuSDxc has made the advancement [Monster Hunter]
-[20:35:47] [Server thread/INFO]: Goty was slain by Zombie
-[20:39:15] [Server thread/INFO]: angr32r[/127.4.69.72:50767] logged in with entity id 13696 at (-185.7721644684107, 68.0, -1147.9969399762028)
-[20:39:15] [Server thread/INFO]: angr32r joined the game
-[20:39:59] [Server thread/INFO]: LuSDxc has made the advancement [Acquire Hardware]
-[20:41:54] [Server thread/INFO]: LuSDxc has made the advancement [A Seedy Place]
-[20:42:19] [Server thread/INFO]: angr32r hit the ground too hard
-[20:42:24] [Server thread/INFO]: angr32r lost connection: Disconnected
-[20:42:24] [Server thread/INFO]: angr32r left the game
-[20:50:27] [Server thread/INFO]: LuSDxc lost connection: Disconnected
-[20:50:27] [Server thread/INFO]: LuSDxc left the game
-[20:50:32] [Server thread/INFO]: LuSDxc[/127.26.149.131:55427] logged in with entity id 23106 at (1268.4618035272824, 66.0, 91.44225275665123)
-[20:50:32] [Server thread/INFO]: LuSDxc joined the game
-[20:53:04] [Server thread/INFO]: Villager class_1646['Villager'/25199, l='ServerLevel[world]', x=502.28, y=111.00, z=743.37] died, message: 'Villager suffocated in a wall'
-[20:53:31] [Server thread/INFO]: Goty was doomed to fall by Skeleton
-[20:53:49] [Server thread/INFO]: LuSDxc fell from a high place
-[20:55:24] [Server thread/INFO]: Goty lost connection: Disconnected
-[20:55:24] [Server thread/INFO]: Goty left the game
-[21:03:02] [Server thread/INFO]: LuSDxc fell from a high place
-[21:03:32] [Server thread/INFO]: LuSDxc lost connection: Disconnected
-[21:03:32] [Server thread/INFO]: LuSDxc left the game
-[21:04:32] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[02:21:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServerMIn1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:21:35] [main/INFO]: Compatibility level set to JAVA_21
+[02:21:37] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:21:44] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:21:47] [main/INFO]: Loaded 1379 recipes
+[02:21:47] [main/INFO]: Loaded 1485 advancements
+[02:21:48] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 2.249 ms
+[02:21:48] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[02:21:48] [Server thread/INFO]: Loading properties
+[02:21:48] [Server thread/INFO]: Default game type: SURVIVAL
+[02:21:48] [Server thread/INFO]: Generating keypair
+[02:21:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:21:48] [Server thread/INFO]: Using epoll channel type
+[02:21:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:21:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:21:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:21:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:21:48] [Server thread/INFO]: Preparing level "world"
+[02:21:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:59] [Worker-Main-3/INFO]: Preparing spawn area: 95%
+[02:21:59] [Worker-Main-3/INFO]: Preparing spawn area: 95%
+[02:21:59] [Server thread/INFO]: Time elapsed: 10802 ms
+[02:21:59] [Server thread/INFO]: Done (11.404s)! For help, type "help"
+[02:22:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[02:23:14] [Server thread/INFO]: LuSDxc[/127.26.149.131:56163] logged in with entity id 9 at (794.9916097906118, 68.0, 31.31618694973897)
+[02:23:14] [Server thread/INFO]: LuSDxc joined the game
+[02:23:43] [Server thread/WARN]: LuSDxc moved too quickly! 9.111763702393318,-2.024424088213692,4.433399159977569
+[02:23:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4993ms or 99 ticks behind
