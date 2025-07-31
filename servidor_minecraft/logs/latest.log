@@ -177,3 +177,15 @@
 [19:10:03] [Server thread/INFO]: LuSDxc left the game
 [19:10:07] [Server thread/INFO]: LuSDxc[/127.26.149.131:53693] logged in with entity id 224 at (-2151.8536014499473, 118.0, 1925.4335676732298)
 [19:10:07] [Server thread/INFO]: LuSDxc joined the game
+[19:40:56] [Server thread/INFO]: LuSDxc lost connection: Disconnected
+[19:40:56] [Server thread/INFO]: LuSDxc left the game
+[19:41:04] [Server thread/INFO]: Stopping server
+[19:41:04] [Server thread/INFO]: Saving players
+[19:41:04] [Server thread/INFO]: Saving worlds
+[19:41:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:41:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:41:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
