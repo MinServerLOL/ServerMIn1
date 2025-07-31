@@ -378,3 +378,8 @@ Caused by: java.io.IOException: Invalid tag id: 16
 	at net.minecraft.class_2487.method_10581(class_2487.java:500) ~[server-intermediary.jar:?]
 	... 45 more
 [02:32:35] [Server thread/WARN]: LuSDxc moved too quickly! -5.458777449334605,-1.0517592750642422,8.343545841238665
+[03:11:03] [Server thread/INFO]: allodro[/127.26.149.131:53185] logged in with entity id 19492 at (8.5, 251.0, -5.5)
+[03:11:03] [Server thread/INFO]: allodro joined the game
+[03:13:41] [Server thread/INFO]: allodro was slain by Zombie
+[03:14:21] [Server thread/INFO]: [Not Secure] <LuSDxc> gei
+[03:17:35] [Server thread/WARN]: allodro moved too quickly! -5.23963656860235,-8.5348441963705,-1.959135518423631
