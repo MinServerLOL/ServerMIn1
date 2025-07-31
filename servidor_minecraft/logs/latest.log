@@ -383,3 +383,7 @@ Caused by: java.io.IOException: Invalid tag id: 16
 [03:13:41] [Server thread/INFO]: allodro was slain by Zombie
 [03:14:21] [Server thread/INFO]: [Not Secure] <LuSDxc> gei
 [03:17:35] [Server thread/WARN]: allodro moved too quickly! -5.23963656860235,-8.5348441963705,-1.959135518423631
+[03:17:59] [Server thread/INFO]: allodro discovered the floor was lava
+[03:18:09] [Server thread/INFO]: allodro lost connection: Disconnected
+[03:18:09] [Server thread/INFO]: allodro left the game
+[03:22:09] [Server thread/INFO]: LuSDxc has made the advancement [Take Aim]
