@@ -10,6 +10,7 @@
       "minecraft:cherry_grove": "2025-07-31 01:37:04 +0000",
       "minecraft:savanna_plateau": "2025-07-31 02:10:30 +0000",
       "minecraft:mangrove_swamp": "2025-07-31 02:14:10 +0000",
+      "minecraft:river": "2025-07-31 03:05:06 +0000",
       "minecraft:swamp": "2025-07-31 02:34:44 +0000",
       "minecraft:forest": "2025-07-31 01:31:38 +0000",
       "minecraft:jungle": "2025-07-31 02:11:36 +0000",
@@ -308,6 +309,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-07-31 02:27:57 +0000",
+      "minecraft:spider": "2025-07-31 03:06:19 +0000",
       "minecraft:zombie": "2025-07-31 01:37:23 +0000"
     },
     "done": false
@@ -417,6 +419,12 @@
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2025-07-31 02:01:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-07-31 03:06:19 +0000"
     },
     "done": true
   },
@@ -585,6 +593,12 @@
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2025-07-31 02:02:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2025-07-31 02:59:09 +0000"
     },
     "done": true
   },
