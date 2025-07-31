@@ -12,8 +12,10 @@
       "minecraft:mangrove_swamp": "2025-07-31 02:14:10 +0000",
       "minecraft:river": "2025-07-31 03:05:06 +0000",
       "minecraft:swamp": "2025-07-31 02:34:44 +0000",
+      "minecraft:jagged_peaks": "2025-07-31 03:35:19 +0000",
       "minecraft:forest": "2025-07-31 01:31:38 +0000",
       "minecraft:jungle": "2025-07-31 02:11:36 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-07-31 03:32:03 +0000",
       "minecraft:meadow": "2025-07-31 01:33:14 +0000"
     },
     "done": false
@@ -518,6 +520,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-31 03:28:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-07-31 01:43:54 +0000"
@@ -641,6 +649,12 @@
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2025-07-31 01:50:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-31 03:28:44 +0000"
     },
     "done": true
   },
