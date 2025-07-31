@@ -394,3 +394,6 @@ Caused by: java.io.IOException: Invalid tag id: 16
 [04:09:51] [Server thread/INFO]: LuSDxc has made the advancement [Suit Up]
 [04:11:48] [Server thread/INFO]: LuSDxc has made the advancement [Diamonds!]
 [04:19:52] [Server thread/INFO]: LuSDxc has made the advancement [Isn't It Iron Pick]
+[04:47:36] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved too quickly! -7.945784963364076,0.0,-6.686481132134759
+[04:47:36] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved too quickly! -8.216342584834365,0.0,-6.976754027902643
+[04:47:36] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved too quickly! -8.480684182885852,0.0,-7.272142050594084
