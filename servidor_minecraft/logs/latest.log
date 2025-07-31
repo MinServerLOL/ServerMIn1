@@ -390,3 +390,6 @@ Caused by: java.io.IOException: Invalid tag id: 16
 [03:47:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2150ms or 43 ticks behind
 [03:59:39] [Server thread/INFO]: LuSDxc has made the advancement [Acquire Hardware]
 [04:04:58] [Server thread/INFO]: LuSDxc has made the advancement [Not Today, Thank You]
+[04:09:49] [Server thread/INFO]: LuSDxc has made the advancement [Cover Me with Diamonds]
+[04:09:51] [Server thread/INFO]: LuSDxc has made the advancement [Suit Up]
+[04:11:48] [Server thread/INFO]: LuSDxc has made the advancement [Diamonds!]
