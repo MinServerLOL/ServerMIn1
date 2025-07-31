@@ -399,3 +399,7 @@ Caused by: java.io.IOException: Invalid tag id: 16
 [04:47:36] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved too quickly! -8.480684182885852,0.0,-7.272142050594084
 [04:55:27] [Server thread/INFO]: LuSDxc lost connection: Disconnected
 [04:55:27] [Server thread/INFO]: LuSDxc left the game
+[05:11:22] [Server thread/INFO]: LuSDxc[/127.26.149.131:42121] logged in with entity id 42126 at (-2263.36071684846, 113.0, 1833.683778710289)
+[05:11:22] [Server thread/INFO]: LuSDxc joined the game
+[05:13:09] [Server thread/INFO]: LuSDxc lost connection: Disconnected
+[05:13:09] [Server thread/INFO]: LuSDxc left the game
