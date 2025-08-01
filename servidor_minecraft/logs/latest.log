@@ -310,3 +310,6 @@ Caused by: java.util.zip.ZipException: Corrupt GZIP trailer
 [02:36:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! 0.5240778125044017,0.0,11.445708803796606
 [02:36:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! 0.5074253047077946,0.0,11.84438587835507
 [02:36:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! 0.4898857054868131,0.0,12.243113721981445
+[02:38:15] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved wrongly! 0.39990234375
+[02:38:15] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved wrongly! 0.39990234375
+[02:38:15] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved wrongly! 0.39990234375
