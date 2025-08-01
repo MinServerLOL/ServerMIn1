@@ -1,6 +1,6 @@
-[19:52:02] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[19:52:02] [ForkJoinPool-1-worker-1/WARN]: Mod tectonic uses the version 2.3.5b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[19:52:02] [main/INFO]: Loading 83 mods:
+[20:05:02] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[20:05:03] [ForkJoinPool-1-worker-2/WARN]: Mod tectonic uses the version 2.3.5b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:05:03] [main/INFO]: Loading 83 mods:
 	- c2me 0.2.0+alpha.11.13
 	   |-- c2me-base 0.2.0+alpha.11.13
 	   |-- c2me-client-uncapvd 0.2.0+alpha.11.13
@@ -98,89 +98,117 @@
 	   \-- puzzlesaccessapi 20.1.1
 	- tectonic 2.3.5b
 	- terralith 2.5.4
-[19:52:02] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServerMIn1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:52:02] [main/INFO]: Compatibility level set to JAVA_16
-[19:52:02] [main/INFO]: Compatibility level set to JAVA_17
-[19:52:02] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[19:52:03] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[19:52:03] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[19:52:03] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[19:52:03] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[19:52:03] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:52:03] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:52:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:52:09] [main/INFO]: Constructing common components for easyanvils:main
-[19:52:09] [main/INFO]: Constructing common components for easymagic:main
-[19:52:10] [main/INFO]: Hello Fabric world!
-[19:52:10] [main/INFO]: Constructing common components for puzzleslib:main
-[19:52:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:52:12] [main/INFO]: Loaded 7 recipes
-[19:52:12] [main/INFO]: Loaded 1271 advancements
-[19:52:13] [main/INFO]: Applied 0 biome modifications to 0 of 163 new biomes in 2.532 ms
-[19:52:13] [Server thread/INFO]: Loading server config for easyanvils
-[19:52:13] [Server thread/INFO]: Loading server config for easymagic
-[19:52:13] [Thread-2/INFO]: Reloading server config for easyanvils
-[19:52:13] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[19:52:13] [Server thread/INFO]: Loading properties
-[19:52:13] [Server thread/INFO]: Default game type: SURVIVAL
-[19:52:13] [Server thread/INFO]: Generating keypair
-[19:52:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:52:13] [Server thread/INFO]: Using epoll channel type
-[19:52:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:52:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:52:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:52:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:52:13] [Server thread/INFO]: Preparing level "world"
-[19:52:13] [Server thread/INFO]: Enforcing safe world random access
-[19:52:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:52:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:52:19] [Server thread/INFO]: Preparing spawn area: 0%
-[19:52:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:52:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:52:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:52:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:52:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:52:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:52:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:52:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:52:23] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[19:52:24] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[19:52:24] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[19:52:25] [Worker-Main-2/INFO]: Preparing spawn area: 19%
-[19:52:25] [Worker-Main-2/INFO]: Preparing spawn area: 39%
-[19:52:26] [Worker-Main-1/INFO]: Preparing spawn area: 58%
-[19:52:26] [Worker-Main-1/INFO]: Preparing spawn area: 94%
-[19:52:26] [Server thread/INFO]: Time elapsed: 8033 ms
-[19:52:26] [Server thread/INFO]: Done (12.572s)! For help, type "help"
-[19:52:45] [Server thread/INFO]: LuSDxc[/127.26.149.131:51155] logged in with entity id 22 at (-2261.036909744819, 103.0625, 1844.1575864054619)
-[19:52:46] [Server thread/INFO]: LuSDxc joined the game
-[19:52:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[19:53:02] [Server thread/INFO]: LuSDxc lost connection: Disconnected
-[19:53:02] [Server thread/INFO]: LuSDxc left the game
-[19:53:56] [Server thread/INFO]: Stopping server
-[19:53:56] [Server thread/INFO]: Saving players
-[19:53:56] [Server thread/INFO]: Saving worlds
-[19:53:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:53:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:53:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:53:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:53:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:53:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:53:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:05:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServerMIn1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:05:03] [main/INFO]: Compatibility level set to JAVA_16
+[20:05:03] [main/INFO]: Compatibility level set to JAVA_17
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:05:03] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[20:05:03] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[20:05:03] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[20:05:03] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[20:05:03] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:05:03] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:05:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:05:10] [main/INFO]: Constructing common components for easyanvils:main
+[20:05:10] [main/INFO]: Constructing common components for easymagic:main
+[20:05:10] [main/INFO]: Hello Fabric world!
+[20:05:10] [main/INFO]: Constructing common components for puzzleslib:main
+[20:05:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:05:13] [main/INFO]: Loaded 7 recipes
+[20:05:13] [main/INFO]: Loaded 1271 advancements
+[20:05:13] [main/INFO]: Applied 0 biome modifications to 0 of 163 new biomes in 2.988 ms
+[20:05:13] [Server thread/INFO]: Loading server config for easyanvils
+[20:05:13] [Thread-2/INFO]: Reloading server config for easyanvils
+[20:05:13] [Server thread/INFO]: Loading server config for easymagic
+[20:05:13] [Thread-2/INFO]: Reloading server config for easymagic
+[20:05:13] [Thread-2/INFO]: Reloading server config for easymagic
+[20:05:13] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:05:13] [Server thread/INFO]: Loading properties
+[20:05:13] [Server thread/INFO]: Default game type: SURVIVAL
+[20:05:13] [Server thread/INFO]: Generating keypair
+[20:05:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:05:14] [Server thread/INFO]: Using epoll channel type
+[20:05:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:05:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:05:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:05:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:05:14] [Server thread/INFO]: Preparing level "world"
+[20:05:14] [Server thread/INFO]: Enforcing safe world random access
+[20:05:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:05:19] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:05:19] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:05:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:05:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:05:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:05:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:05:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:05:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:05:23] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[20:05:23] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[20:05:24] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[20:05:24] [Worker-Main-3/INFO]: Preparing spawn area: 5%
+[20:05:25] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[20:05:25] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[20:05:26] [Worker-Main-2/INFO]: Preparing spawn area: 40%
+[20:05:26] [Worker-Main-1/INFO]: Preparing spawn area: 79%
+[20:05:26] [Server thread/INFO]: Time elapsed: 7628 ms
+[20:05:26] [Server thread/INFO]: Done (12.451s)! For help, type "help"
+[20:05:58] [Server thread/INFO]: LuSDxc[/127.26.149.131:57803] logged in with entity id 22 at (-2260.9474341498444, 103.0, 1842.682098725113)
+[20:05:58] [Server thread/INFO]: LuSDxc joined the game
+[20:13:48] [Server thread/INFO]: lol[/127.26.149.131:32957] logged in with entity id 1199 at (-5.5, 240.0, -6.5)
+[20:13:48] [Server thread/INFO]: lol joined the game
+[20:16:28] [Server thread/INFO]: [LuSDxc: Teleported LuSDxc to lol]
+[20:17:49] [Server thread/INFO]: [LuSDxc: Teleported LuSDxc to -225.500000, 84.000000, 1828.500000]
+[20:17:51] [Server thread/WARN]: LuSDxc moved too quickly! 0.0,-10.806526110008988,0.0
+[20:18:31] [Server thread/INFO]: [LuSDxc: Teleported LuSDxc to -2260.500000, 84.000000, 1828.500000]
+[20:19:05] [Server thread/INFO]: [LuSDxc: Teleported lol to LuSDxc]
+[20:20:12] [Server thread/INFO]: lol has made the advancement [Sweet Dreams]
+[20:20:42] [Server thread/INFO]: lol fell from a high place
+[20:21:00] [Server thread/INFO]: lol was slain by LuSDxc
+[20:21:48] [Server thread/INFO]: LuSDxc fell from a high place
+[20:23:48] [Server thread/INFO]: LuSDxc lost connection: Disconnected
+[20:23:48] [Server thread/INFO]: LuSDxc left the game
+[20:25:48] [Server thread/INFO]: lol fell from a high place
+[20:28:18] [Server thread/INFO]: LuSDxc[/127.26.149.131:38427] logged in with entity id 4053 at (-2257.8249245585644, 110.0, 1837.699999988079)
+[20:28:18] [Server thread/INFO]: LuSDxc joined the game
+[20:28:20] [Server thread/INFO]: LuSDxc lost connection: Disconnected
+[20:28:20] [Server thread/INFO]: LuSDxc left the game
+[20:29:49] [Server thread/INFO]: LuSDxc[/127.26.149.131:43599] logged in with entity id 4424 at (-2257.8249245585644, 110.0, 1837.699999988079)
+[20:29:49] [Server thread/INFO]: LuSDxc joined the game
+[20:31:01] [Server thread/INFO]: LuSDxc lost connection: Disconnected
+[20:31:01] [Server thread/INFO]: LuSDxc left the game
+[20:32:39] [Server thread/INFO]: LuSDxc[/127.26.149.131:40693] logged in with entity id 4919 at (-2252.5041851370243, 63.0, 1809.699999988079)
+[20:32:39] [Server thread/INFO]: LuSDxc joined the game
+[20:40:59] [Server thread/INFO]: lol discovered the floor was lava
+[20:41:23] [Server thread/INFO]: LuSDxc lost connection: Disconnected
+[20:41:23] [Server thread/INFO]: LuSDxc left the game
+[20:43:04] [Server thread/INFO]: lol was shot by Skeleton
+[20:57:33] [Server thread/INFO]: lol lost connection: Disconnected
+[20:57:33] [Server thread/INFO]: lol left the game
+[20:57:45] [Server thread/INFO]: Stopping server
+[20:57:45] [Server thread/INFO]: Saving players
+[20:57:45] [Server thread/INFO]: Saving worlds
+[20:57:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:57:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:57:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:57:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:57:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:57:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:57:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
