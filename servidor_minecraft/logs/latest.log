@@ -1,6 +1,6 @@
-[00:56:15] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[00:56:15] [ForkJoinPool-1-worker-4/WARN]: Mod tectonic uses the version 2.3.5b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:56:15] [main/INFO]: Loading 83 mods:
+[19:22:33] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[19:22:33] [ForkJoinPool-1-worker-1/WARN]: Mod tectonic uses the version 2.3.5b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:22:33] [main/INFO]: Loading 83 mods:
 	- c2me 0.2.0+alpha.11.13
 	   |-- c2me-base 0.2.0+alpha.11.13
 	   |-- c2me-client-uncapvd 0.2.0+alpha.11.13
@@ -98,230 +98,80 @@
 	   \-- puzzlesaccessapi 20.1.1
 	- tectonic 2.3.5b
 	- terralith 2.5.4
-[00:56:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServerMIn1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:56:16] [main/INFO]: Compatibility level set to JAVA_16
-[00:56:16] [main/INFO]: Compatibility level set to JAVA_17
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[00:56:16] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[00:56:16] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[00:56:16] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[00:56:16] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[00:56:16] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:56:16] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:56:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[00:56:24] [main/INFO]: Constructing common components for easyanvils:main
-[00:56:24] [main/INFO]: Constructing common components for easymagic:main
-[00:56:24] [main/INFO]: Hello Fabric world!
-[00:56:24] [main/INFO]: Constructing common components for puzzleslib:main
-[00:56:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:56:27] [main/INFO]: Loaded 7 recipes
-[00:56:27] [main/INFO]: Loaded 1271 advancements
-[00:56:28] [main/INFO]: Applied 0 biome modifications to 0 of 163 new biomes in 3.065 ms
-[00:56:28] [Server thread/INFO]: Loading server config for easyanvils
-[00:56:28] [Server thread/INFO]: Loading server config for easymagic
-[00:56:28] [Thread-2/INFO]: Reloading server config for easymagic
-[00:56:28] [Thread-2/INFO]: Reloading server config for easymagic
-[00:56:28] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:56:28] [Server thread/INFO]: Loading properties
-[00:56:28] [Server thread/INFO]: Default game type: SURVIVAL
-[00:56:28] [Server thread/INFO]: Generating keypair
-[00:56:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:56:28] [Server thread/INFO]: Using epoll channel type
-[00:56:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:56:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:56:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:56:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:56:28] [Server thread/INFO]: Preparing level "world"
-[00:56:28] [Server thread/INFO]: Enforcing safe world random access
-[00:56:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:56:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:56:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:56:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:56:34] [Server thread/INFO]: Preparing spawn area: 0%
-[00:56:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[00:56:35] [Worker-Main-3/INFO]: Preparing spawn area: 3%
-[00:56:36] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[00:56:36] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[00:56:37] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[00:56:37] [Worker-Main-2/INFO]: Preparing spawn area: 10%
-[00:56:38] [Worker-Main-1/INFO]: Preparing spawn area: 14%
-[00:56:38] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[00:56:39] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[00:56:39] [Worker-Main-3/INFO]: Preparing spawn area: 36%
-[00:56:40] [Worker-Main-1/INFO]: Preparing spawn area: 54%
-[00:56:40] [Worker-Main-3/INFO]: Preparing spawn area: 76%
-[00:56:41] [Server thread/INFO]: Time elapsed: 7769 ms
-[00:56:41] [Server thread/INFO]: Done (12.388s)! For help, type "help"
-[00:57:34] [Server thread/INFO]: LuSDxc[/127.26.149.131:36945] logged in with entity id 22 at (-2264.699999988079, 113.0, 1834.5297404229095)
-[00:57:34] [Server thread/INFO]: LuSDxc joined the game
-[00:58:32] [IOWorker-1/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 729 chunks (100.00%), Total time: 0:00:00
-[01:01:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2171ms or 43 ticks behind
-[01:33:30] [Server thread/INFO]: LuSDxc has made the advancement [Ice Bucket Challenge]
-[01:39:39] [Worker-Main-2/ERROR]: Couldn't load structure mvs:houses/large_floating_island
-net.minecraft.class_148: Loading NBT data
-	at net.minecraft.class_2487.method_10581(class_2487.java:506) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23240(class_2487.java:71) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23262(class_2487.java:57) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2499$1.method_23249(class_2499.java:43) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2499$1.method_23262(class_2499.java:26) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487.method_10581(class_2487.java:500) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23240(class_2487.java:71) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23262(class_2487.java:57) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2507.method_10626(class_2507.java:147) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2507.method_10625(class_2507.java:91) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2507.method_10629(class_2507.java:36) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_15090(class_3485.java:227) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_44231(class_3485.java:217) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_15088(class_3485.java:130) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_44245(class_3485.java:108) ~[server-intermediary.jar:?]
-	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
-	at net.minecraft.class_3485.method_15094(class_3485.java:98) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_15091(class_3485.java:86) ~[server-intermediary.jar:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
-	at net.minecraft.class_3781.method_27233(class_3781.java:81) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3781.method_16628(class_3781.java:115) ~[server-intermediary.jar:?]
-	at com.finndog.mvs.world.structures.pieces.PieceLimitedJigsawManager.assembleJigsawStructure(PieceLimitedJigsawManager.java:106) ~[mvs-4.1.5-1.20.jar:?]
-	at com.finndog.mvs.world.structures.GenericJigsawStructure.method_38676(GenericJigsawStructure.java:213) ~[mvs-4.1.5-1.20.jar:?]
-	at net.minecraft.class_3195.method_47932(class_3195.java:199) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3195.method_41614(class_3195.java:125) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2794.method_41044(class_2794.java:513) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2794.method_41041(class_2794.java:466) ~[server-intermediary.jar:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraft.class_2794.method_16129(class_2794.java:448) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2806.method_39464(class_2806.java:54) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2806.method_12154(class_2806.java:550) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3898.method_17225(class_3898.java:684) ~[server-intermediary.jar:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
-	at net.minecraft.class_3898.method_17224(class_3898.java:673) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_3900.method_17634(class_3900.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
-	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.io.IOException: Invalid tag id: 16
-	at net.minecraft.class_4614$1.method_39878(class_4614.java:58) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4614$1.method_23264(class_4614.java:63) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4614$1.method_23262(class_4614.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487.method_10581(class_2487.java:500) ~[server-intermediary.jar:?]
-	... 45 more
-[01:50:15] [Worker-Main-2/ERROR]: Couldn't load structure mvs:cathedral/special/dead_end_1
-net.minecraft.class_148: Loading NBT data
-	at net.minecraft.class_2487.method_10581(class_2487.java:506) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23240(class_2487.java:71) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23262(class_2487.java:57) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2499$1.method_23249(class_2499.java:43) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2499$1.method_23262(class_2499.java:26) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487.method_10581(class_2487.java:500) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23240(class_2487.java:71) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23262(class_2487.java:57) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2507.method_10626(class_2507.java:147) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2507.method_10625(class_2507.java:91) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2507.method_10629(class_2507.java:36) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_15090(class_3485.java:227) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_44231(class_3485.java:217) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_15088(class_3485.java:130) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_44245(class_3485.java:108) ~[server-intermediary.jar:?]
-	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
-	at net.minecraft.class_3485.method_15094(class_3485.java:98) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3485.method_15091(class_3485.java:86) ~[server-intermediary.jar:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
-	at net.minecraft.class_3781.method_27233(class_3781.java:81) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3781.method_16627(class_3781.java:107) ~[server-intermediary.jar:?]
-	at com.finndog.mvs.world.structures.pieces.PieceLimitedJigsawManager$Assembler.processList(PieceLimitedJigsawManager.java:424) ~[mvs-4.1.5-1.20.jar:?]
-	at com.finndog.mvs.world.structures.pieces.PieceLimitedJigsawManager$Assembler.generatePiece(PieceLimitedJigsawManager.java:313) ~[mvs-4.1.5-1.20.jar:?]
-	at com.finndog.mvs.world.structures.pieces.PieceLimitedJigsawManager.lambda$assembleJigsawStructure$2(PieceLimitedJigsawManager.java:175) ~[mvs-4.1.5-1.20.jar:?]
-	at net.minecraft.class_3195$class_7150.method_44021(class_3195.java:117) ~[server-intermediary.jar:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
-	at net.minecraft.class_3195$class_7150.method_44019(class_3195.java:115) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3195.method_41614(class_3195.java:127) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2794.method_41044(class_2794.java:513) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2794.method_41041(class_2794.java:466) ~[server-intermediary.jar:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraft.class_2794.method_16129(class_2794.java:448) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2806.method_39464(class_2806.java:54) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2806.method_12154(class_2806.java:550) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3898.method_17225(class_3898.java:684) ~[server-intermediary.jar:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
-	at net.minecraft.class_3898.method_17224(class_3898.java:673) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_3900.method_17634(class_3900.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
-	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.util.zip.ZipException: Corrupt GZIP trailer
-	at java.util.zip.GZIPInputStream.readTrailer(GZIPInputStream.java:225) ~[?:?]
-	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:119) ~[?:?]
-	at net.minecraft.class_6826.read(class_6826.java:45) ~[server-intermediary.jar:?]
-	at java.io.DataInputStream.readFully(DataInputStream.java:201) ~[?:?]
-	at java.io.DataInputStream.readUTF(DataInputStream.java:602) ~[?:?]
-	at java.io.DataInputStream.readUTF(DataInputStream.java:558) ~[?:?]
-	at net.minecraft.class_2487.method_10552(class_2487.java:495) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23240(class_2487.java:68) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487$1.method_23262(class_2487.java:57) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2487.method_10581(class_2487.java:500) ~[server-intermediary.jar:?]
-	... 48 more
-[01:51:01] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved wrongly! 0.2548255586198138
-[01:51:01] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved wrongly! 0.6487516478746329
-[01:51:01] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved wrongly! 1.0437329020332982
-[01:51:46] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved wrongly! 0.4113973281023391
-[01:51:46] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved wrongly! 0.6613642003162568
-[02:06:44] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved too quickly! -2.540019255691277,0.0,-10.084227998531787
-[02:06:44] [Server thread/WARN]: Boat (vehicle of LuSDxc) moved too quickly! -2.6371675996524573,0.0,-10.472245563855722
-[02:23:39] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved wrongly! 0.8380099758505821
-[02:23:40] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved wrongly! 0.8739328203519108
-[02:23:40] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved wrongly! 0.9062633795465445
-[02:26:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! -2.4039122164854234,0.0,9.864750829722198
-[02:26:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! -2.5400606846887968,0.0,10.232409562927387
-[02:26:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! -2.6752653133944477,0.0,10.601242439376165
-[02:36:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! 0.5679133354556143,0.0,10.250057154665683
-[02:36:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! 0.5544080024410505,0.0,10.64853597380943
-[02:36:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! 0.5397659249724711,0.0,11.04708949283713
-[02:36:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! 0.5240778125044017,0.0,11.445708803796606
-[02:36:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! 0.5074253047077946,0.0,11.84438587835507
-[02:36:44] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved too quickly! 0.4898857054868131,0.0,12.243113721981445
-[02:38:15] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved wrongly! 0.39990234375
-[02:38:15] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved wrongly! 0.39990234375
-[02:38:15] [Server thread/WARN]: Boat with Chest (vehicle of LuSDxc) moved wrongly! 0.39990234375
-[03:07:59] [Server thread/INFO]: LuSDxc lost connection: Disconnected
-[03:07:59] [Server thread/INFO]: LuSDxc left the game
-[03:08:08] [Server thread/INFO]: Stopping server
-[03:08:08] [Server thread/INFO]: Saving players
-[03:08:08] [Server thread/INFO]: Saving worlds
-[03:08:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:08:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:08:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:08:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:08:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:08:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:08:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:22:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServerMIn1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:22:33] [main/INFO]: Compatibility level set to JAVA_16
+[19:22:33] [main/INFO]: Compatibility level set to JAVA_17
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:22:34] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[19:22:34] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[19:22:34] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[19:22:34] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[19:22:34] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:22:34] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:22:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:22:41] [main/INFO]: Constructing common components for easyanvils:main
+[19:22:41] [main/INFO]: Constructing common components for easymagic:main
+[19:22:41] [main/INFO]: Hello Fabric world!
+[19:22:41] [main/INFO]: Constructing common components for puzzleslib:main
+[19:22:42] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:22:44] [main/INFO]: Loaded 7 recipes
+[19:22:44] [main/INFO]: Loaded 1271 advancements
+[19:22:45] [main/INFO]: Applied 0 biome modifications to 0 of 163 new biomes in 2.907 ms
+[19:22:45] [Server thread/INFO]: Loading server config for easyanvils
+[19:22:45] [Thread-2/INFO]: Reloading server config for easyanvils
+[19:22:45] [Server thread/INFO]: Loading server config for easymagic
+[19:22:45] [Thread-2/INFO]: Reloading server config for easyanvils
+[19:22:45] [Thread-2/INFO]: Reloading server config for easymagic
+[19:22:45] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:22:45] [Server thread/INFO]: Loading properties
+[19:22:45] [Server thread/INFO]: Default game type: SURVIVAL
+[19:22:45] [Server thread/INFO]: Generating keypair
+[19:22:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:22:45] [Server thread/INFO]: Using epoll channel type
+[19:22:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:22:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:22:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:22:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:22:45] [Server thread/INFO]: Preparing level "world"
+[19:22:45] [Server thread/INFO]: Enforcing safe world random access
+[19:22:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:22:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:22:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:22:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:22:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:22:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:22:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:22:53] [Worker-Main-3/INFO]: Preparing spawn area: 5%
+[19:22:53] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[19:22:54] [Worker-Main-3/INFO]: Preparing spawn area: 5%
+[19:22:54] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[19:22:55] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[19:22:55] [Worker-Main-1/INFO]: Preparing spawn area: 14%
+[19:22:56] [Worker-Main-3/INFO]: Preparing spawn area: 14%
+[19:22:56] [Worker-Main-3/INFO]: Preparing spawn area: 16%
+[19:22:57] [Worker-Main-3/INFO]: Preparing spawn area: 23%
+[19:22:57] [Worker-Main-2/INFO]: Preparing spawn area: 46%
+[19:22:58] [Worker-Main-3/INFO]: Preparing spawn area: 78%
+[19:22:58] [Server thread/INFO]: Time elapsed: 8323 ms
+[19:22:58] [Server thread/INFO]: Done (13.112s)! For help, type "help"
+[19:24:22] [Server thread/INFO]: LuSDxc[/127.26.149.131:48611] logged in with entity id 22 at (-2258.615760493973, 97.0, 1839.6961251463538)
+[19:24:22] [Server thread/INFO]: LuSDxc joined the game
+[19:24:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
+[19:28:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2801ms or 56 ticks behind
