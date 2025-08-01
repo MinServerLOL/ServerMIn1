@@ -175,3 +175,4 @@
 [19:24:22] [Server thread/INFO]: LuSDxc joined the game
 [19:24:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
 [19:28:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2801ms or 56 ticks behind
+[19:34:30] [IOWorker-1/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 729 chunks (100.00%), Total time: 0:00:00
